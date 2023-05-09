@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"env-settings/greeting"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Println(greeting.Hello())
 }
